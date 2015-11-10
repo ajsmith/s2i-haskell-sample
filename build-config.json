@@ -2,12 +2,12 @@
     "kind": "BuildConfig",
     "apiVersion": "v1",
     "metadata": {
-        "name": "s2i-httpd-sample-build",
+        "name": "s2i-httpd-sample-build"
     },
     "spec": {
         "triggers": [
             {
-                "type": "ImageChange",
+                "type": "ImageChange"
             }
         ],
         "source": {
@@ -21,7 +21,7 @@
             "sourceStrategy": {
                 "from": {
                     "kind": "ImageStreamTag",
-                    "name": "rhel6:latest"
+                    "name": "ruby-20-centos7:latest"
                 }
             }
         },
