@@ -1,0 +1,10 @@
+{
+    "kind": "ImageStream",
+    "apiVersion": "v1",
+    "metadata": {
+        "name": "ruby-20-centos7"
+    },
+    "spec": {
+        "dockerImageRepository": "openshift/ruby-20-centos7"
+    }
+}
