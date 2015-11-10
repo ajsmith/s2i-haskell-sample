@@ -1,0 +1,2 @@
+# Ignore S2I scripts.
+.sti/
