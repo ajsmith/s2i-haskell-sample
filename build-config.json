@@ -13,7 +13,7 @@
         "source": {
             "type": "Git",
             "git": {
-                "uri": "git@github.com:ajsmith/s2i-httpd-sample.git"
+                "uri": "git://github.com/ajsmith/s2i-httpd-sample.git"
             }
         },
         "strategy": {
