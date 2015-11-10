@@ -1,8 +1,11 @@
 #!/bin/bash
 # Assemble an httpd image.
-set -e
+set -ex
+
+whoami
 
 yum install -y httpd
+
 cat <<EOF > /var/www/html/index.html
 Built using Source-to-Image!
 EOF
